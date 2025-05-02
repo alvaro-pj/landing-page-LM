@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Libreria iconos web https://ionic.io -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="img/logov2.jpg" type="image/x-icon">
+    <title>Landing Page Web</title>
+</head>
+
+<body>
+    <header>
+        <nav class="top">
+            <div class="logo">
+                <a href="#inicio">
+                    <img src="img/logov2.jpg" alt="Logo normal" class="logo-front">
+                    <img src="img/logov3.jpg" alt="Logo hover" class="logo-back">
+                </a>
+            </div>
+            <ul class="nav-bar">
+                <li>
+                    <a href="#sobremi">sobre mí</a>
+                </li>
+                <li>
+                    <a href="#curriculum">currículum</a>
+                </li>
+                <li>
+                    <a href="#proyectos">proyectos</a>
+                </li>
+                <li>
+                    <a href="#contacto">contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h1>Álvaro Postigo </h1>
+            <h2><span>Descubriendo mi sueño</span></h2>
+            <h2>Futuro desarrollador</h2>
+            <div class="redes-box">
+                <ul class="redes-sociales">
+                    <li>
+                        <a href="mailto:alvaro.postigo440@comunidadunir.net" target="_blank"><ion-icon
+                                name="mail-unread-outline"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/alvaro-pj" target="_blank"><ion-icon
+                                name="logo-github"></ion-icon></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/alvaro-postigo-1b85b41a2/" target="_blank"><ion-icon
+                                name="logo-linkedin"></ion-icon></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sobremi">
+            <h1 class="titulo-apartados">
+                <span>#</span>Sobre mí
+            </h1>
+            <div class="sm-texto">
+                <p>
+                    Hola, soy Álvaro. Desde siempre me ha llamado la atención la tecnología.
+                    He trabajado y estudiado muchas cosas diferentes hasta que decidí
+                    adentrarme en el mundo de la programación.
+                </p>
+                <p id="sm-parrafo">
+                    Actualmente estoy estudiando la FP de DAW, practicando y aprendiendo.
+                </p>
+            </div>
+            <div class="sm-imagen">
+                <img src="img/logov3.jpg" alt="">
+            </div>
+        </section>
+
+        <section id="curriculum">
+            <h1 class="titulo-apartados">
+                <span>#</span>Currículum
+            </h1>
+            <div class="contenedor-cv">
+                <div class="cv-caja">
+                    <h1>
+                        Datos personales
+                    </h1>
+                    <ul>
+                        <li>Nombre: Álvaro Postigo</li>
+                        <li>Residencia: Santander</li>
+                        <li>Email: alvaro.postigo440@comunidadunir.net</li>
+                        <li>Idiomas: Español e Inglés</li>
+                    </ul>
+                </div>
+                <div class="cv-caja">
+                    <h1>
+                        Estudios
+                    </h1>
+                    <ul>
+                        <li>Formación profesional en Desarrollo de aplicaciones Web UNIR (en curso)</li>
+                        <li>Grado en Fisioterapia en Universidad Francisco de Vitoria (2015-2019)</li>
+                        <li>Grado en Enfermería en Universidad Francisco de Vitoria (2 años)</li>
+                    </ul>
+                </div>
+                <div class="cv-caja">
+                    <h1>
+                        Habilidades tecnológicas
+                    </h1>
+                    <ul>
+                        <li>Lenguajes: Java, SQL, HTML, CSS</li>
+                        <li>IDEs: Eclipse, IntelliJ</li>
+                        <li>Sistemas gestores de BBDD: MySQL, PostgreSQL</li>
+                        <li>Sistemas operativos: Windows, Linux</li>
+                        <li>JavaDoc y JUnit5</li>
+                        <li>Git y Git Hub</li>
+                    </ul>
+                </div>
+                <div class="cv-caja">
+                    <h1>
+                        Habilidades generales
+                    </h1>
+                    <ul>
+                        <li>Trabajo en equipo</li>
+                        <li>Facilidad para aprender</li>
+                        <li>Rápida adaptación a diferentes formas de trabajo</li>
+                        <li>Experiencia con la atención directa al público</li>
+                        <li>Puntualidad y educación</li>
+                        <li>Compromiso con trabajo y compañeros</li>
+                        <li>Ambición por seguir aprendiendo</li>
+                    </ul>
+                </div>
+                <div class="cv-caja">
+                    <h1>
+                        Experiencia laboral
+                    </h1>
+                    <ul>
+                        <li>Fisioterapeuta: 3 años</li>
+                        <li>Camarero: 10 años</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h1 class="titulo-apartados">
+                <span>#</span>Proyectos
+            </h1>
+            <div class="contenedor-proyectos">
+                <div class="tarjeta">
+                    <div class="face front">
+                        <img src="img/img-uml.jpg" alt="">
+                        <h3>UML</h3>
+                    </div>
+                    <div class="face back">
+                        <h3>UML</h3>
+                        <p>Gestor de torneos de eSports. Diagramas UML de casos de uso y clases</p>
+                        <div class="link">
+                            <a href="https://github.com/alvaro-pj/torneo-esports-uml" target="_blank">Más
+                                información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div class="face front">
+                        <img src="img/img-prog.jpg" alt="">
+                        <h3>PROGRAMACIÓN</h3>
+                    </div>
+                    <div class="face back">
+                        <h3>PROGRAMACIÓN</h3>
+                        <p>Acceso a bbdd usando la tecnología JDBC</p>
+                        <div class="link">
+                            <a href="https://github.com/alvaro-pj/acceso-bbdd-jdbc" target="_blank">Más información</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta">
+                    <div class="face front">
+                        <img src="img/img-landing.jpg" alt="">
+                        <h3>LANDING PAGE</h3>
+                    </div>
+                    <div class="face back">
+                        <h3>LANDING PAGE</h3>
+                        <p>Landing page personal. Cambiar por web corporativa cuando esté hecha</p>
+                        <div class="link">
+                            <a href="https://github.com/alvaro-pj/landing-page" target="_blank">Más información</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h1 class="titulo-apartados">
+                <span>#</span>Contacto
+            </h1>
+            <form action="mailto:alvaro.postigo440@comunidadunir.net">
+                <label for="nombre">Nombre :</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email">
+                <label for="mensaje">Mensaje :</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+                <input class="boton-envio" type="submit" value="Enviar solicitud de contacto">
+            </form>
+        </section>
+        <div class="redes-box">
+            <ul class="redes-sociales">
+                <li>
+                    <a href="mailto:alvaro.postigo440@comunidadunir.net" target="_blank"><ion-icon
+                            name="mail-unread-outline"></ion-icon></a>
+                </li>
+                <li>
+                    <a href="https://github.com/alvaro-pj" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/alvaro-postigo-1b85b41a2/" target="_blank"><ion-icon
+                            name="logo-linkedin"></ion-icon></a>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>&copy;Pagina Web para el trabajo de Lenguaje de Marcas</p>
+        </div>
+    </main>
+</body>
+
+</html>
